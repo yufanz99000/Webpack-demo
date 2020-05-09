@@ -4,7 +4,7 @@ const path = require("path");
 module.exports = {
   entry: "./src/x.js",
   output: {
-    filename: "index.[contenthash].js"
+    filename: "x.[contenthash].js"
   },
   plugins: [
     new HtmlWebpackPlugin({
